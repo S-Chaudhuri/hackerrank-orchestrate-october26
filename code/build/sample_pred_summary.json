@@ -1,0 +1,20 @@
+{
+  "cases": 32,
+  "status": {
+    "COMPLETE": 10,
+    "INCOMPLETE": 22
+  },
+  "classification_disagreements": [],
+  "ownership_routes_used": {
+    "lookup_key": 8,
+    "identifier": 72,
+    "reference": 1
+  },
+  "skipped_resources": 7,
+  "unobserved_absent_added": 1,
+  "unobserved_absent_withheld_complete": 0,
+  "unresolved_emails": [],
+  "notes": [
+    "contradicted link activity_4008: marketing_001 -> user_09; file evidence_60 shows unknown person"
+  ]
+}

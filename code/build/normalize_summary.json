@@ -1,0 +1,60 @@
+{
+  "files": 94,
+  "file_status": {
+    "ok": 94
+  },
+  "observations": 4113,
+  "by_source_type": {
+    "log": 2211,
+    "json": 948,
+    "text": 41,
+    "visual_manual": 22,
+    "sql": 891
+  },
+  "by_state": {
+    "ANONYMIZED": 1333,
+    "FOUND": 1911,
+    "REDACTED": 306,
+    "NOT_FOUND": 246,
+    "ACTIVE": 172,
+    "BLOCKED": 51,
+    "DISABLED": 51,
+    "IDENTIFIABLE": 43
+  },
+  "without_resource_id": 864,
+  "without_system_id": 14,
+  "linked_to_a_user": 2365,
+  "linked_to_multiple_users": 1,
+  "unmatched_emails": 22,
+  "categories_kept": [
+    "account tombstone",
+    "analytics profile",
+    "backup archive",
+    "cache entry",
+    "data flow",
+    "email delivery log",
+    "legal hold record",
+    "marketing profile",
+    "product telemetry",
+    "search index entry",
+    "secondary identifier",
+    "security audit log",
+    "support attachment",
+    "support message",
+    "user export",
+    "user profile"
+  ],
+  "categories_dropped": 1,
+  "links": 12,
+  "prefix_system_map": {
+    "account": "account_service",
+    "audit_record": "security_service",
+    "analytics": "analytics_platform",
+    "search": "search_service",
+    "support": "support_platform",
+    "export": "export_service",
+    "backup": "backup_service",
+    "data_flow": "integration_service",
+    "tombstone": "identity_service"
+  }
+}

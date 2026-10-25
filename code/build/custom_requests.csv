@@ -1,0 +1,6 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+custom_01,K.APPIAH88@GMAIL.COM,2026-09-14T09:00:00Z,NOT_STARTED,2026-09-15T09:00:00Z,2026-09-16T09:00:00Z,Please permanently delete the account associated with this email address.
+custom_02,haruka.s183889@zoho.com,2026-09-25T08:00:00Z,COMPLETE,2026-09-26T02:00:00Z,2026-09-27T13:00:00Z,I would like the account associated with this address to be erased.
+custom_03,g.silva76@gmail.com,2026-08-30T03:00:00Z,NOT_STARTED,2026-08-31T21:00:00Z,2026-09-02T08:00:00Z,"Por favor actualicen mi dirección de envío. No borren mi cuenta ni mis pedidos, sigo comprando en la tienda."
+custom_04,l.fontaine46@yahoo.com,2026-09-13T11:00:00Z,NOT_STARTED,2026-09-13T12:00:00Z,2026-09-14T12:00:00Z,Je demande la suppression définitive du compte associé à cette adresse e-mail.
+custom_05,g.silva76@gmail.com,2026-08-30T03:00:00Z,NOT_STARTED,2026-08-31T21:00:00Z,2026-09-02T08:00:00Z,Please close my account and process the associated personal-data deletion.

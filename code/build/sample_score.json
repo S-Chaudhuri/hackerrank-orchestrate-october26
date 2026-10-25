@@ -1,0 +1,675 @@
+{
+  "metrics": {
+    "cases": 32,
+    "status_accuracy": 1.0,
+    "json_valid": 1.0,
+    "step_numbering_ok": 1.0,
+    "step_precision": 0.9576,
+    "step_recall": 0.8187,
+    "step_f1": 0.8827,
+    "resource_precision": 0.9753,
+    "resource_recall": 0.7117,
+    "field_accuracy": {
+      "key": 0.8187,
+      "phase": 0.8187,
+      "state": 0.8187,
+      "evidence_id": 0.8187
+    },
+    "sequence_exact": 0.25,
+    "sequence_similarity": 0.7053,
+    "pred_steps": 165,
+    "gold_steps": 193
+  },
+  "cases": [
+    {
+      "case_id": "case_01",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.0,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_001",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          "evidence_54"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_02",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.0,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_002",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          "evidence_54"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_03",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.667,
+      "missing": [
+        [
+          "VERIFICATION",
+          "analytics_platform",
+          "analytics_9406",
+          "VERIFY_RECORD_ANONYMIZED",
+          "ANONYMIZED",
+          "evidence_94"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_04",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.0,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_004",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          "evidence_54"
+        ],
+        [
+          "VERIFICATION",
+          "analytics_platform",
+          "analytics_901",
+          "VERIFY_RECORD_ANONYMIZED",
+          "ANONYMIZED",
+          "evidence_56"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_05",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": true,
+      "seq_similarity": 1.0,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "case_id": "case_06",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": true,
+      "seq_similarity": 1.0,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "case_id": "case_07",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.5,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_007",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ]
+      ],
+      "extra": [
+        [
+          "FINDING",
+          "support_platform",
+          "object_19",
+          "REPORT_REMAINING_RECORD",
+          "PRESENT",
+          "evidence_46"
+        ],
+        [
+          "REMEDIATION",
+          "support_platform",
+          "object_19",
+          "DELETE_RECORD",
+          "ABSENT",
+          ""
+        ],
+        [
+          "VERIFICATION",
+          "support_platform",
+          "object_19",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ]
+      ]
+    },
+    {
+      "case_id": "case_08",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.75,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_008",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_09",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.6,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_3960",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ],
+        [
+          "VERIFICATION",
+          "security_service",
+          "audit_record_4902",
+          "VERIFY_RECORD_PRESENT",
+          "PRESENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_10",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.75,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_010",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_11",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": true,
+      "seq_similarity": 1.0,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "case_id": "case_12",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.2,
+      "missing": [
+        [
+          "FINDING",
+          "analytics_platform",
+          "analytics_9914",
+          "REPORT_REMAINING_RECORD",
+          "PRESENT",
+          "evidence_01"
+        ],
+        [
+          "REMEDIATION",
+          "analytics_platform",
+          "analytics_9914",
+          "DELETE_RECORD",
+          "ABSENT",
+          ""
+        ],
+        [
+          "VERIFICATION",
+          "analytics_platform",
+          "analytics_9914",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ]
+      ],
+      "extra": [
+        [
+          "FINDING",
+          "analytics_platform",
+          "analytics_9914",
+          "REPORT_EXPOSED_PII",
+          "PRESENT",
+          "evidence_01"
+        ],
+        [
+          "REMEDIATION",
+          "analytics_platform",
+          "analytics_9914",
+          "ANONYMIZE_RECORD",
+          "ANONYMIZED",
+          ""
+        ],
+        [
+          "VERIFICATION",
+          "analytics_platform",
+          "analytics_9914",
+          "VERIFY_RECORD_ANONYMIZED",
+          "ANONYMIZED",
+          ""
+        ]
+      ]
+    },
+    {
+      "case_id": "case_13",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": true,
+      "seq_similarity": 1.0,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "case_id": "case_14",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": true,
+      "seq_similarity": 1.0,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "case_id": "case_15",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": true,
+      "seq_similarity": 1.0,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "case_id": "case_16",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": true,
+      "seq_similarity": 1.0,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "case_id": "case_17",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.833,
+      "missing": [],
+      "extra": [
+        [
+          "VERIFICATION",
+          "identity_service",
+          "tombstone_17",
+          "VERIFY_RECORD_REDACTED",
+          "REDACTED",
+          ""
+        ]
+      ]
+    },
+    {
+      "case_id": "case_18",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.857,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_5521",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ],
+        [
+          "VERIFICATION",
+          "security_service",
+          "audit_record_6645",
+          "VERIFY_RECORD_PRESENT",
+          "PRESENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_19",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": true,
+      "seq_similarity": 1.0,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "case_id": "case_20",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.75,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_5037",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ],
+        [
+          "VERIFICATION",
+          "security_service",
+          "audit_record_5569",
+          "VERIFY_RECORD_PRESENT",
+          "PRESENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_21",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.333,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_6440",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          "evidence_92"
+        ],
+        [
+          "VERIFICATION",
+          "analytics_platform",
+          "analytics_5335",
+          "VERIFY_RECORD_ANONYMIZED",
+          "ANONYMIZED",
+          "evidence_92"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_22",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.875,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_4990",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_23",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.75,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_410",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ],
+        [
+          "VERIFICATION",
+          "security_service",
+          "audit_record_4128",
+          "VERIFY_RECORD_PRESENT",
+          "PRESENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_24",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.857,
+      "missing": [
+        [
+          "VERIFICATION",
+          "security_service",
+          "audit_record_7095",
+          "VERIFY_RECORD_PRESENT",
+          "PRESENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_25",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.333,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_3136",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          "evidence_92"
+        ],
+        [
+          "VERIFICATION",
+          "analytics_platform",
+          "analytics_1895",
+          "VERIFY_RECORD_ANONYMIZED",
+          "ANONYMIZED",
+          "evidence_92"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_26",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.833,
+      "missing": [
+        [
+          "VERIFICATION",
+          "analytics_platform",
+          "analytics_4566",
+          "VERIFY_RECORD_ANONYMIZED",
+          "ANONYMIZED",
+          "evidence_92"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_27",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.833,
+      "missing": [
+        [
+          "VERIFICATION",
+          "analytics_platform",
+          "analytics_4574",
+          "VERIFY_RECORD_ANONYMIZED",
+          "ANONYMIZED",
+          "evidence_92"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_28",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.667,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_5482",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          "evidence_92"
+        ],
+        [
+          "VERIFICATION",
+          "analytics_platform",
+          "analytics_6077",
+          "VERIFY_RECORD_ANONYMIZED",
+          "ANONYMIZED",
+          "evidence_92"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_29",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.857,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_7012",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ],
+        [
+          "VERIFICATION",
+          "security_service",
+          "audit_record_3954",
+          "VERIFY_RECORD_PRESENT",
+          "PRESENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_30",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.857,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_4163",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ],
+        [
+          "VERIFICATION",
+          "security_service",
+          "audit_record_1707",
+          "VERIFY_RECORD_PRESENT",
+          "PRESENT",
+          ""
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_31",
+      "gold_status": "COMPLETE",
+      "pred_status": "COMPLETE",
+      "exact": false,
+      "seq_similarity": 0.667,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_4857",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          "evidence_51"
+        ]
+      ],
+      "extra": []
+    },
+    {
+      "case_id": "case_32",
+      "gold_status": "INCOMPLETE",
+      "pred_status": "INCOMPLETE",
+      "exact": false,
+      "seq_similarity": 0.8,
+      "missing": [
+        [
+          "VERIFICATION",
+          "account_service",
+          "account_8858",
+          "VERIFY_RECORD_ABSENT",
+          "ABSENT",
+          ""
+        ]
+      ],
+      "extra": []
+    }
+  ]
+}

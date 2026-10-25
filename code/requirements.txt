@@ -1,0 +1,4 @@
+# Core pipeline uses only the Python standard library (3.11+); LLM calls use urllib.
+pdfplumber>=0.11    # PDF text layer (pypdf also works)
+pypdfium2>=4.0      # renders PDF pages to PNG for image-only vision APIs (Groq, OpenRouter, Ollama)
+Pillow>=10.0        # used by pypdfium2 to encode PNG pages
